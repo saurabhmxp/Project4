@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		569F4DCF28E18516003CAEF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569F4DCE28E18516003CAEF3 /* AppDelegate.swift */; };
 		569F4DD128E18516003CAEF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569F4DD028E18516003CAEF3 /* SceneDelegate.swift */; };
-		569F4DD328E18516003CAEF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569F4DD228E18516003CAEF3 /* ViewController.swift */; };
 		569F4DD628E18516003CAEF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569F4DD428E18516003CAEF3 /* Main.storyboard */; };
 		569F4DD828E18517003CAEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569F4DD728E18517003CAEF3 /* Assets.xcassets */; };
 		569F4DDB28E18517003CAEF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569F4DD928E18517003CAEF3 /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		569F4DCB28E18516003CAEF3 /* Project4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		569F4DCE28E18516003CAEF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		569F4DD028E18516003CAEF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		569F4DD228E18516003CAEF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		569F4DD528E18516003CAEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		569F4DD728E18517003CAEF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		569F4DDA28E18517003CAEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 			children = (
 				569F4DCE28E18516003CAEF3 /* AppDelegate.swift */,
 				569F4DD028E18516003CAEF3 /* SceneDelegate.swift */,
-				569F4DD228E18516003CAEF3 /* ViewController.swift */,
 				569F4DE828E1CDE1003CAEF3 /* WebViewController.swift */,
 				569F4DE628E1CA1F003CAEF3 /* MainViewController.swift */,
 				569F4DD428E18516003CAEF3 /* Main.storyboard */,
@@ -144,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				569F4DD328E18516003CAEF3 /* ViewController.swift in Sources */,
 				569F4DCF28E18516003CAEF3 /* AppDelegate.swift in Sources */,
 				569F4DD128E18516003CAEF3 /* SceneDelegate.swift in Sources */,
 				569F4DE928E1CDE1003CAEF3 /* WebViewController.swift in Sources */,
