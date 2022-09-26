@@ -13,6 +13,8 @@
 		569F4DD628E18516003CAEF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569F4DD428E18516003CAEF3 /* Main.storyboard */; };
 		569F4DD828E18517003CAEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569F4DD728E18517003CAEF3 /* Assets.xcassets */; };
 		569F4DDB28E18517003CAEF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569F4DD928E18517003CAEF3 /* LaunchScreen.storyboard */; };
+		569F4DE728E1CA1F003CAEF3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569F4DE628E1CA1F003CAEF3 /* MainViewController.swift */; };
+		569F4DE928E1CDE1003CAEF3 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569F4DE828E1CDE1003CAEF3 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		569F4DD728E18517003CAEF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		569F4DDA28E18517003CAEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		569F4DDC28E18517003CAEF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569F4DE628E1CA1F003CAEF3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		569F4DE828E1CDE1003CAEF3 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				569F4DCE28E18516003CAEF3 /* AppDelegate.swift */,
 				569F4DD028E18516003CAEF3 /* SceneDelegate.swift */,
 				569F4DD228E18516003CAEF3 /* ViewController.swift */,
+				569F4DE828E1CDE1003CAEF3 /* WebViewController.swift */,
+				569F4DE628E1CA1F003CAEF3 /* MainViewController.swift */,
 				569F4DD428E18516003CAEF3 /* Main.storyboard */,
 				569F4DD728E18517003CAEF3 /* Assets.xcassets */,
 				569F4DD928E18517003CAEF3 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				569F4DD328E18516003CAEF3 /* ViewController.swift in Sources */,
 				569F4DCF28E18516003CAEF3 /* AppDelegate.swift in Sources */,
 				569F4DD128E18516003CAEF3 /* SceneDelegate.swift in Sources */,
+				569F4DE928E1CDE1003CAEF3 /* WebViewController.swift in Sources */,
+				569F4DE728E1CA1F003CAEF3 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

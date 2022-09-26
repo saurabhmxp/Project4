@@ -11,10 +11,11 @@ import WebKit
 
 //for classes the first Class after the : is the class it extends from and the subsequent classes are those whose protocols the current class conforms to, i.e, it takes care of the methods in those class, this helps in delegation
 
-class ViewController: UIViewController, WKNavigationDelegate {
+class WebViewController: UIViewController, WKNavigationDelegate {
     var webView: WKWebView!
     var progressView: UIProgressView!
-    var websites = ["apple.com", "hackingwithswift.com"]
+    var websites: [[String:String]]!
+    var currentWebsite: Int!
     
     override func loadView() {
         webView = WKWebView()
@@ -43,15 +44,16 @@ class ViewController: UIViewController, WKNavigationDelegate {
         
         webView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), options: .new, context: nil)
         
-        let url = URL(string: "https://"+websites[0])!
+        let url = URL(string: "https://"+websites[currentWebsite]["website"]!)!
+        print(url)
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
     }
     
     @objc func openTapped(){
         let ac = UIAlertController(title: "Open Page", message: nil, preferredStyle: .actionSheet)
-        for website in websites {
-            ac.addAction(UIAlertAction(title: website, style: .default, handler: openPage))
+        for (website) in websites {
+            ac.addAction(UIAlertAction(title: website["website"], style: .default, handler: openPage))
         }
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         ac.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
@@ -80,8 +82,8 @@ class ViewController: UIViewController, WKNavigationDelegate {
         let url = navigationAction.request.url
         
         if let host = url?.host{
-            for website in websites {
-                if host.contains(website){
+            for (website) in websites {
+                if host.contains(website["website"]!){
                     decisionHandler(.allow)
                     return
                 }else{
